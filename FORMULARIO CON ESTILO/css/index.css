@@ -1,0 +1,27 @@
+body{font-family: 'Varela Round', sans-serif;}
+
+legend{font-weight: bold;}
+
+input{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-bottom: 1px solid black;}
+
+    p{font-size: 40px}
+
+#p0{font-family: 'Modak', cursive;color:chocolate;
+font-size: 40px;
+background-color: darkgrey;}
+
+#p1{font-family: 'Liu Jian Mao Cao', cursive;color:violet;
+font-size: 1em;}
+
+#p2{font-family: 'Anton', sans-serif;color: crimson;
+font-size:1.5em;}
+
+#p3{font-family: 'Indie Flower', cursive; color:purple;
+font-size:2em;}
+
+fieldset{width: 800px;}

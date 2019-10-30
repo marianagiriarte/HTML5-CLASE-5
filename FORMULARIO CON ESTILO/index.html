@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 4 HTML5 Formulario</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+<form action="https://formspree.io/marianagiriarte@gmail.com" method="POST">
+<p id= "p0">Bienvenido al Formulario Nº 1</p>
+
+<p id="p1">PARRAFO 1: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae labore, obcaecati voluptatum facere ut dolore molestiae similique vitae mollitia nobis quasi facilis, non dicta expedita eveniet rerum libero corrupti velit.
+    <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error voluptates saepe illum neque quis repellat omnis officia architecto iusto corporis, maxime ea. Vitae nostrum quod dolorem non. Quo, fugiat.
+    <br>
+</p>
+
+<p id="p2">Parrafo 2, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque explicabo, facere et cumque omnis sapiente sequi repellat iste nobis dolorum blanditiis ea, inventore cupiditate repellendus. Eius reprehenderit consequuntur voluptate illum.</p>
+<p id="p3">Parrafo 3, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque explicabo, facere et cumque omnis sapiente sequi repellat iste nobis dolorum blanditiis ea, inventore cupiditate repellendus. Eius reprehenderit consequuntur voluptate illum.</p>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <br>
+        <label for="nombre">Nombre y Apellido</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido" required>
+        <br>
+        <br>
+        <label for="Email">E-mail </label>
+        <input type="email" name="email" id="email" placeholder="Ingrese su e-mail" requerid>
+        <br>
+        <br>
+        <label for="password">Contraseña </label>
+        <input type="password" name="password" id="password" placeholder="Ingrese su clave" requerid>
+        <br>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend> Datos de Origen</legend>
+        <br>
+        <label for="Pais">Pais de origen</label>
+        <select name="Pais" id="Pais">
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+            <option>Brasil</option>
+        </select>
+        <label for="sexo">Sexo: </label>
+        <input type="radio" name="sexo" id="sexo" value="hombre"/>Hombre
+        <input type="radio" name="sexo" id="sexo" value="mujer" checked="checked"/>Mujer
+        <br>
+        <br>
+    <label for="mayoredad">¿Es mayor de Edad?</label>
+    <br>
+    <br>
+    <input type="checkbox"name="mayoredad" id="mayoredad" value="SI">  Si, soy mayor de edad  
+        <input type="checkbox"name="mayoredad" id="mayoredad" value="NO"> No, soy menor de edad
+        <br>
+        <br>
+    </fieldset>
+        <br>
+        <br>
+    <fieldset>
+        <legend> Otros datos</legend>
+        <br>
+        <label for="rango">Grado de conocimiento en programación</label>
+        <br>
+        <br>
+        <input type="range"name="rango" id="rango" list="grado">
+        <br>
+        <br>
+        <label for="comentarios">Ingrese sus comentarios</label>
+        <br>
+        <br>
+        <textarea name="comentarios" id="comentarios" rows="10" cols="100"></textarea>
+        <br>
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>Ultimos datos</legend>
+        <br>
+        <label>Ingrese fecha:</label>
+            <input type="date" name="fecha" id="fecha">
+            <br>
+            <br>
+        <label>Ingrese hora actual:  </label>
+            <input type="time" name="hora" id="hora">
+            <br>
+            <br>
+    <input type="submit" value="Enviar">
+</fieldset>
+</form>
+<datalist id="grado">
+    <option value="0" value="Muy Malo!">
+    <option value="50" value="Bueno">
+    <option value="100" value="Muy Bueno!">
+</datalist>
+
+</html>
